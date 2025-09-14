@@ -9,3 +9,5 @@ print(name,age,addr)
 
 name = '이순신'
 print(name,age,addr)
+
+print(score)

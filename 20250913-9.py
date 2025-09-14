@@ -16,7 +16,20 @@ data = []
 # data.appened(num)
 
 
-data.append(int(input('숫자 입력 : ')))
-data.append(int(input('숫자 입력 : ')))
-data.append(int(input('숫자 입력 : ')))
-print('data= ',data)
+data.append(int(input('숫자 입력 : '))) #10
+data.append(int(input('숫자 입력 : '))) #30
+data.append(int(input('숫자 입력 : '))) #20
+print('data= ',data) #print [10,30,20]
+#삭제
+removed_list = []
+removed_data.pop(1) #data[10,20]
+removed_list.append([1,removed_data]) #[[1,30]]
+
+removed_data.pop(0) #data[20]
+removed_list.append([0,removed_data]) #[[1,30][0,10]]
+
+removed_data.pop(0) #data[2]
+removed_list.append([0,removed_data]) #[[1,30][0,10][0,20]]
+
+#복원순서 [20]-> [10,20] ->[10,30,20]
+#삭제순서 [10,30,20] -> [10,20] -> [20] ->[]

@@ -13,4 +13,5 @@ var01 = 3.151592
 var02 = True   # bool *참과거짓만구분하는거
 var03 =  "good"
 # 정수형, 실수형(소숫점?), 불형(bool, boolean)형, 문자형
-print(var01,var02,var03)
+print(var01,var02,var03
+
